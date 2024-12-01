@@ -8,8 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="one">Hello world!</h1>
-    <button onclick="changeHeaderOne('red');">Click!</button>
+    <p>Todo App</p>
+
+    <div class="todo-container">
+        <p>Todo</p>
+        <ul id="todo-list">
+            
+        </ul>
+    </div>
+
+    <form id="form" class="new-item">
+        <label for="todo-input">Input task</label>
+        <input id="todo-input" type="text">
+        <input type="submit" value="&plus;">
+    </form>
+ 
 
     <script src="script.js"></script>
 </body>
